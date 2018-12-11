@@ -11,5 +11,5 @@ RUN apt-get update &&\
 ADD entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh 
 ENTRYPOINT  /entrypoint.sh 
-#CMD ["/chisel/chisel","--port","8080","--log"]
+
 EXPOSE 8080
