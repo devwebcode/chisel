@@ -1,11 +1,3 @@
-#FROM alpine:latest
-FROM heroku/heroku:18
-RUN mkdir -m 777 /chisel
- 
-ADD entrypoint.sh /entrypoint.sh
-RUN chmod +x /entrypoint.sh 
-
-CMD /entrypoint.sh
 
 FROM ubuntu:18.10
 ENV VER=1.2.4
