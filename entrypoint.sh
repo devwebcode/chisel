@@ -1,2 +1,2 @@
 cd /chisel
-./chisel server --port $PORT --auth $AUTH --socks5
+./chisel server --port 8080 --auth $AUTH --socks5
